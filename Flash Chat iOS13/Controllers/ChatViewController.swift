@@ -17,7 +17,7 @@ class ChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
-        title = Constants.title
+        title = K.appName
     }
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
         let firebaseAuth = Auth.auth()
